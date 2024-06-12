@@ -1,0 +1,65 @@
+*,
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.index-body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.header-index {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
+}
+
+.lobby-index,
+.under-heading {
+  margin-left: 20%;
+}
+
+.lobby-index {
+  font-size: 1.75rem;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  color: hsla(268, 75%, 44%, 1);
+}
+
+.under-heading {
+  margin-top: 0;
+}
+
+.content-index {
+  height: 600px;
+  padding-top: 5rem;
+  margin-right: 10%;
+  margin-left: 20%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10rem;
+}
+
+.buttons-index {
+  width: 100%;
+  height: 105px;
+  text-align: center;
+  border: 1.75px solid hsla(268, 75%, 44%, 1);
+  border-radius: 2px;
+  padding: 14px, 86px, 14px, 86px;
+  background-color: white;
+  box-shadow: 3.5px 3.5px hsla(268, 75%, 44%, 1);
+  color: hsla(268, 75%, 44%, 1);
+  font-size: 2.5rem;
+}
+
+.buttons-index:hover {
+  background-color: rgb(236, 236, 236);
+  cursor: pointer;
+  height: 120px;
+  width: 105%;
+}
