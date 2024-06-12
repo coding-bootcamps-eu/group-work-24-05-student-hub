@@ -6,10 +6,16 @@
 }
 
 .index-body {
+  position: relative;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
+}
+
+.mobile-options {
+  position: absolute;
+  opacity: 0;
 }
 
 .header-index {
@@ -60,6 +66,39 @@
 .buttons-index:hover {
   background-color: rgb(236, 236, 236);
   cursor: pointer;
-  height: 120px;
+  height: 105%;
   width: 105%;
+}
+
+@media screen and (max-width: 1000px) {
+  .header-index {
+    padding-top: 10rem;
+    padding-bottom: 0;
+  }
+
+  .mobile-options {
+    position: absolute;
+    top: 47%;
+    opacity: 1;
+  }
+
+  .lobby-index,
+  .under-heading {
+    margin-left: 0;
+  }
+
+  .content-index {
+    grid-template-columns: 1fr;
+    height: 300px;
+    margin: auto;
+    margin-top: 20%;
+    gap: 0;
+    padding-top: 0;
+  }
+
+  .buttons-index {
+    margin-top: 0;
+    height: 48px;
+    margin-bottom: 0;
+  }
 }
