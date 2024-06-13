@@ -75,3 +75,21 @@ body {
 }
 
 /* Nav-Bar end*/
+
+@media screen and (max-width: 800px) {
+  .dropdown {
+    top: 0;
+    max-height: 25px;
+    min-width: 100%;
+  }
+
+  .dropdown-content {
+    top: 100%;
+    left: 0;
+    min-width: 100%;
+  }
+
+  .nav-links {
+    padding-bottom: 1.5rem;
+  }
+}
