@@ -87,6 +87,22 @@ body {
     top: 100%;
     left: 0;
     min-width: 100%;
+    text-align: center;
+  }
+
+  .dropbtn {
+    display: flex;
+  }
+
+  .nav-icon {
+    margin: auto 0;
+  }
+
+  .header-nav-mobile {
+    margin: auto;
+    font-weight: 600;
+    color: white;
+    font-size: 1.15rem;
   }
 
   .nav-links {
